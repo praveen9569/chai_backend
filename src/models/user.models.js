@@ -33,7 +33,7 @@ const userSchema = new Schema(
          },
          avatar:
         {
-            type:string,  //cloudinary url
+            type:string,  //cloudinary url //we use cloundinary to store images and can be accessed by url
             required:true,
             
         },
